@@ -1,0 +1,86 @@
+body {
+	 color: rgb(30, 30, 30);
+	 background-color: rgb(230, 230, 230);
+	 font-family: 'lora', serif;
+	 font-weight: lighter;
+	 font-size:15px;
+	 font-weight: 400;
+}
+
+ h1 {
+	color:#045762 ;
+	font-family: 'Markazi text', sans sherif ;
+	font-weight: 800 ;
+	letter-spacing: 5px ;
+	font-size: 45px ;
+	text-transform: uppercase
+}
+
+ h2 {
+    color:#4e8d7c ;
+	font-family: 'lora' ;
+	font-weight: 700 ;
+	letter-spacing: 5px ;
+	font-size: 35px ;
+	text-transform: uppercase
+}
+ p {
+ 	font-family: 'roboto',
+ 	text-align: center;
+ 	color: #0a043c;
+ }
+
+
+
+.container{
+	width:600px;
+	margin:20px auto;
+}
+
+@media (max-width: 650px){
+	.container{
+		width: 450px}
+}
+     
+
+@media (max-width: 500px){
+	.container{
+		width: 400px}
+}
+
+
+.card-white{
+	background:#eeeade;
+	padding:20px;
+	margin: 30px 0px;
+	border-radius: 5px;
+	box-shadow: 15px 15px 20px #f8f2f4;
+	text-align: center;
+	}
+
+
+
+.img-circle{
+	border-radius: 55%;
+}
+
+.img-bordered{
+	border:2px solid #f8f2f4;
+}
+
+
+.list-inline{
+	list-style: none;
+	padding-left:0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: :10px;
+}
+
+.list-line i{
+	font-size: 25px;
+}
+
+
